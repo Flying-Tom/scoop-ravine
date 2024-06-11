@@ -27,6 +27,6 @@
     "regex": "<small>版本：([\\d.]+)</small>"
   },
   "autoupdate": {
-    "url": "http://www2.aomeisoftware.com/download/pacn/PAGreen.zip"
+    "url": "https://dl.aomeikeji.com/pa/PAGreen.7z"
   }
 }
