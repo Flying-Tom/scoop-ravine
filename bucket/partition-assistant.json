@@ -1,32 +1,30 @@
 {
-  "homepage": "https://www.disktool.cn/",
-  "license": "Freeware for non-commercial use",
-  "version": "10.4",
-  "url": "https://dl.aomeikeji.com/pa/PAGreen.7z",
-  "hash": "168450d7c6f709fc3c146d75e96575bc384af449a382e0ee9c01ac50c14fff02",
-  "extract_dir": "PA_Green",
-  "bin": [
-    "PartAssist.exe"
-  ],
-  "shortcuts": [
-    [
-      "PartAssist.exe",
-      "傲梅分区助手"
-    ]
-  ],
-  "persist": [
-    "cfg.ini",
-    "wnd.ini",
-    "other.ini"
-  ],
-  "uninstaller": {
-    "file": "uninstall.bat"
-  },
-  "checkver": {
-    "url": "https://www.disktool.cn/download.html",
-    "regex": "<small>版本：([\\d.]+)</small>"
-  },
-  "autoupdate": {
-    "url": "https://dl.aomeikeji.com/pa/PAGreen.7z"
-  }
+    "homepage": "https://www.disktool.cn/",
+    "license": "Freeware for non-commercial use",
+    "version": "10.4.0",
+    "url": "https://dl.aomeikeji.com/pa/PAGreen.7z",
+    "hash": "168450d7c6f709fc3c146d75e96575bc384af449a382e0ee9c01ac50c14fff02",
+    "extract_dir": "PA_Green",
+    "bin": "PartAssist.exe",
+    "shortcuts": [
+        [
+            "PartAssist.exe",
+            "傲梅分区助手"
+        ]
+    ],
+    "persist": [
+        "cfg.ini",
+        "wnd.ini",
+        "other.ini"
+    ],
+    "uninstaller": {
+        "file": "uninstall.bat"
+    },
+    "checkver": {
+        "url": "https://www.disktool.cn/download.html",
+        "regex": "<small>版本：([\\d.]+)</small>"
+    },
+    "autoupdate": {
+        "url": "https://dl.aomeikeji.com/pa/PAGreen.7z"
+    }
 }
