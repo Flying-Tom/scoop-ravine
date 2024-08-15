@@ -11,5 +11,10 @@
       "Clash for Windows.exe",
       "Clash for Windows"
     ]
-  ]
+  ],
+  "uninstaller": {
+    "script": [
+      "Remove-ItemProperty -Path \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\" -Name \"com.lbyczf.clashwin\""
+    ]
+  }
 }
