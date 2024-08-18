@@ -11,7 +11,7 @@
     "extract_to": "app",
     "shortcuts": [
         [
-            "app/Feishu.exe",
+            "app\\Feishu.exe",
             "飞书"
         ]
     ],
