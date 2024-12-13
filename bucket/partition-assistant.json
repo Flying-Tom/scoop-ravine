@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.disktool.cn/",
     "license": "Freeware for non-commercial use",
-    "version": "10.4.0",
+    "version": "10.6.0",
     "url": "https://dl.aomeikeji.com/pa/PAGreen.7z",
-    "hash": "168450d7c6f709fc3c146d75e96575bc384af449a382e0ee9c01ac50c14fff02",
+    "hash": "79702a3404b790ee8a86903fee5b051dcd01d5c0c606c361eb515d32583045b0",
     "extract_dir": "PA_Green",
     "bin": "PartAssist.exe",
     "shortcuts": [
