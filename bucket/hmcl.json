@@ -11,6 +11,10 @@
     },
     "url": "https://github.com/HMCL-dev/HMCL/releases/download/v3.10.4/HMCL-3.10.4.exe#/HMCL.exe",
     "hash": "0bbb5da2c087879339f90dd9c00376077af46b52f5dcefdc6a0e24ab26cf58ca",
+    "pre_install": [
+        "if (!(Test-Path \"$dir\\hmcl.json\")) { New-Item -ItemType File \"$dir\\hmcl.json\" -Force | Out-Null }",
+        "if (!(Test-Path \"$dir\\.minecraft\")) { New-Item -ItemType Directory \"$dir\\.minecraft\" -Force | Out-Null }"
+    ],
     "bin": "HMCL.exe",
     "shortcuts": [
         [
