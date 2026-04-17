@@ -8,5 +8,5 @@ References Buckets:
 - [scoopet]
 
 ```bash
-scoop bucket add ravine https://github.com/Flying-Tom/scoop-ravine
+scoop bucket add ravine https://github.com/brushax/scoop-ravine
 ```
